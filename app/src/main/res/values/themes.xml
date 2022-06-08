@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/greyPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/greyPrimaryLightColor</item>
+        <item name="colorOnPrimary">@color/whitePrimaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orangeSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/orangeSecondaryLightColor</item>
+        <item name="colorOnSecondary">#1E1E1E</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Text input outlined style. -->
+        <item name="textInputStyle"> @style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Radio button style. -->
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <!-- Switch style. -->
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
+
+    </style>
+</resources>
